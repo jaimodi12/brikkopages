@@ -1,26 +1,9 @@
-# Brikko Website Replica
+# Brikko (responsive rebuild)
 
-Included:
-- Responsive header/navigation
-- 3-slide hero carousel
-- Welcome to Brikko / About section
-- Contractor, Supplier/Manufacturer and Consultant service cards
-- How Brikko Works section
-- Full 8-question FAQ accordion
-- CTA section
-- Contact/footer sections
-- Get A Quote modal form
-- Newsletter interaction
-- Mobile responsive menu
+Files: index.html, style.css, script.js. Upload all three to the same folder (e.g. GitHub Pages root).
 
-Files:
-- index.html
-- style.css
-- script.js
+Logo files: logo-full.jpg (header/footer) and logo-mark.png (favicon). Brand colours: blue #0c4a9a, orange #f06008.
 
-To run:
-1. Upload all three files to your GitHub Pages repository.
-2. Keep them in the same folder.
-3. Open index.html.
+Highlights: sticky glass header, fluid type and spacing, auto-fit grids, swipeable hero slider, accessible FAQ and quote modal (focus trap, Esc, aria), reduced-motion support.
 
-Note: The visual content is recreated from the publicly visible page; the original site's private source/assets were not copied.
+Note: the quote form only shows a success message. Connect it to a backend or form service in script.js (see TODO).
